@@ -23,6 +23,7 @@ export default function SettingsScreen() {
             setIsSuccessfulStorage(true)
         } catch (error) {
             setIsSuccessfulStorage(false)
+            console.log(error)
         }
         setIsModalOpen(true)
         setApiKey("")
@@ -35,6 +36,7 @@ export default function SettingsScreen() {
             alert('Deleted ApiKey')
         } catch (error) {
             setIsSuccessfulStorage(false)
+            console.log(error)
         }
         setIsModalOpen(true)
     }
