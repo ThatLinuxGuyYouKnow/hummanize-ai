@@ -3,14 +3,13 @@
 import { ThemeProvider } from "next-themes"
 import { Button } from "@/components/ui/button"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
-import { Bot, Sparkles, MessageSquare, Zap, Brain, Settings2, Users } from "lucide-react"
+import { Bot, Sparkles, MessageSquare, Zap, Brain, Settings2 } from "lucide-react"
 import Link from "next/link"
 import icon from './logo.png'
 import { ApiKeyModal } from "./apiKeyModal"
 import Image from "next/image"
 import { useState } from "react"
 import registerApiKey from "@/logic/registerApiKey"
-import { Dialog } from "@/components/ui/dialog"
 import { ApiKeyStorageResults } from "./apiKeyStorageResultAlert"
 export default function LandingPage() {
 
@@ -118,7 +117,7 @@ export default function LandingPage() {
                     <div className="space-y-2">
                       <p className="text-sm text-muted-foreground">Humanized Version:</p>
                       <div className="rounded-md bg-primary/10 p-4 text-sm">
-                        Looks like we're in for some rain today! Expect it to be pretty mild, with temps hovering around
+                        Looks like we&apos;re in for some rain today! Expect it to be pretty mild, with temps hovering around
                         the mid-60s Fahrenheit.
                       </div>
                     </div>

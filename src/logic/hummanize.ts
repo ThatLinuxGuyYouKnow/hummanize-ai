@@ -1,4 +1,4 @@
-import { type NextApiResponse } from 'next';
+
 import getCookie from './getApiKey';
 // Types for the function parameters
 interface HumanizeParams {

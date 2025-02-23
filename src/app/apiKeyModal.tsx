@@ -59,7 +59,7 @@ export function ApiKeyModal({ isOpen, onClose, onSubmit }: ApiKeyModalProps) {
                             Save API Key
                         </Button>
                         <p className="text-sm text-muted-foreground">
-                            Don't have an API key? Get one{" "}
+                            Don&apos;t have an API key? Get one{" "}
                             <a
                                 href="https://ai.google.dev"
                                 className="underline text-primary"
