@@ -35,6 +35,6 @@ An open-source AI text humanization tool that transforms robotic AI responses in
 - [Tailwind CSS](https://tailwindcss.com/) - Styling
 - [shadcn/ui](https://ui.shadcn.com/) - UI components
 - [Lucide Icons](https://lucide.dev/) - Icons
-- [Gemini API](https://ai.google.dev)
+- [Gemini API](https://ai.google.dev/apikey)
 
  
