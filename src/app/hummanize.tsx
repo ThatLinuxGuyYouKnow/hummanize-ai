@@ -10,7 +10,6 @@ import Link from "next/link";
 import Image from "next/image";
 import icon from "./logo.png";
 import { Settings, Sparkles } from "lucide-react";
-import hummanizeText from "@/logic/hummanize";
 import humanizeText from "@/logic/hummanize";
 
 export default function HumanizeScreen() {
