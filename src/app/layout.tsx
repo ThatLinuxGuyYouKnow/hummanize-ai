@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Hummanize",
-  description: "Make AI text sound human",
+  description: "Become Human",
 };
 
 export default function RootLayout({
