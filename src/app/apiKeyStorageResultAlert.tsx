@@ -1,5 +1,5 @@
 "use client"
-
+import { useRouter } from 'next/navigation'
 import {
     Dialog,
     DialogContent,
@@ -17,6 +17,8 @@ interface ApiKeyStorageResultsProps {
 }
 
 export function ApiKeyStorageResults({ isOpen, onClose, isSuccessfulStorage }: ApiKeyStorageResultsProps) {
+    const router = useRouter();
+
     return (
         <Dialog open={isOpen} onOpenChange={onClose}>
             <DialogContent className="sm:max-w-[425px]">
@@ -28,14 +30,16 @@ export function ApiKeyStorageResults({ isOpen, onClose, isSuccessfulStorage }: A
                             : "Oh no, we couldn't store your API key. Please try again."}
                     </DialogDescription>
                 </DialogHeader>
-
                 <DialogFooter className="flex flex-col items-center gap-2">
-                    <Button onClick={() => {
-                        onClose();
-                        if (isSuccessfulStorage) {
-                            window.location.reload();
-                        }
-                    }} className="w-full">
+                    <Button
+                        onClick={() => {
+                            onClose();
+                            if (isSuccessfulStorage) {
+                                router.push('/humanize');
+                            }
+                        }}
+                        className="w-full"
+                    >
                         Okay
                     </Button>
                 </DialogFooter>
@@ -43,4 +47,3 @@ export function ApiKeyStorageResults({ isOpen, onClose, isSuccessfulStorage }: A
         </Dialog>
     )
 }
-

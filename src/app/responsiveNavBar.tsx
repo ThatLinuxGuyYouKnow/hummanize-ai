@@ -46,12 +46,12 @@ export default function ResponsiveNavbar() {
                             Features
                         </Link>
                         <Link
-                            href="#how-it-works"
+                            href="#"
                             className="text-sm font-medium hover:underline ease-out duration-300 transition-all underline-offset-4"
                         >
                             How it works
                         </Link>
-                        <Link href="/hummanize">
+                        <Link href="/humanize">
                             <Button>Get Started</Button>
                         </Link>
                     </nav>
@@ -74,7 +74,7 @@ export default function ResponsiveNavbar() {
                                 >
                                     How it works
                                 </Link>
-                                <Link href="/hummanize" onClick={toggleMenu}>
+                                <Link href="/humanize" onClick={toggleMenu}>
                                     <Button className="w-full">Get Started</Button>
                                 </Link>
                             </nav>
