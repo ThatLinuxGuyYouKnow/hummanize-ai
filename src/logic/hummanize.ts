@@ -32,6 +32,7 @@ export default async function humanizeText({
 
     try {
         const apiKey = getCookie('apiKey')
+        alert(apiKey)
         const prompt = `
       Please rewrite the following text:
       "${text}"
