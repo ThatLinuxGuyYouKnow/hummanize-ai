@@ -30,7 +30,12 @@ export function ApiKeyStorageResults({ isOpen, onClose, isSuccessfulStorage }: A
                 </DialogHeader>
 
                 <DialogFooter className="flex flex-col items-center gap-2">
-                    <Button onClick={onClose} className="w-full">
+                    <Button onClick={() => {
+                        onClose();
+                        if (isSuccessfulStorage) {
+                            window.location.reload();
+                        }
+                    }} className="w-full">
                         Okay
                     </Button>
                 </DialogFooter>
