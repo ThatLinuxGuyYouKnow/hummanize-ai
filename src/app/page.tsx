@@ -64,7 +64,7 @@ export default function LandingPage() {
           />
 
           <main className="">
-            <section className="container mx-auto py-24 space-y-8 text-center my-20">
+            <section className="container mx-auto py-20 space-y-8 text-center my-20">
               <div className="space-y-4 max-w-3xl mx-auto">
                 <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">
                   Open-source AI{" "}
