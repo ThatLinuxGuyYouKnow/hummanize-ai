@@ -29,8 +29,8 @@ export default function LandingPage() {
   // Function to handle API key submission
   const handleApiKeySubmit = async (apiKey: string) => {
     try {
-      const success = registerApiKey(apiKey); // Call the API key registration function
-      setIsSuccessfulStorage(await success); // Set the success status
+      const success = await registerApiKey(apiKey); // Call the API key registration function
+      setIsSuccessfulStorage(success); // Set the success status
       setIsStorageResultOpen(true); // Open the Storage Results Modal
     } catch (error) {
       console.error("Error storing API key:", error);

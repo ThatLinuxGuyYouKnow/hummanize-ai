@@ -1,6 +1,6 @@
 
 
-export default async function registerApiKey(apiKey: string) {
+export default function registerApiKey(apiKey: string) {
     // Ensure the input is a string
     if (typeof apiKey !== "string" || apiKey.trim().length === 0) {
         console.error("Invalid API key provided.");
