@@ -38,19 +38,18 @@ export default function ResponsiveNavbar() {
                     </div>
 
                     {/* Desktop Navigation */}
-                    <nav className="hidden md:flex items-center space-x-4">
+<nav className="hidden md:flex items-center space-x-4">
+                        
                         <Link
-                            href="#features"
-                            className="text-sm font-medium hover:underline underline-offset-4"
-                        >
-                            Features
-                        </Link>
-                        <Link
-                            href="#"
+                            href="https://github.com/ThatLinuxGuyYouKnow/hummanize-ai"
                             className="text-sm font-medium hover:underline ease-out duration-300 transition-all underline-offset-4"
                         >
-                            How it works
+                            Github
                         </Link>
+                        <Link href="/humanize">
+                            <Button>Get Started</Button>
+                        </Link>
+                    </nav>
                         <Link href="/humanize">
                             <Button>Get Started</Button>
                         </Link>
@@ -68,13 +67,7 @@ export default function ResponsiveNavbar() {
                                     Features
                                 </Link>
                                 <Link
-                                    href="#how-it-works"
-                                    className="text-lg font-medium hover:underline underline-offset-4"
-                                    onClick={toggleMenu}
-                                >
-                                    How it works
-                                </Link>
-                                <Link href="/humanize" onClick={toggleMenu}>
+
                                     <Button className="w-full">Get Started</Button>
                                 </Link>
                             </nav>

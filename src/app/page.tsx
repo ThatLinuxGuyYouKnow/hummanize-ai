@@ -78,9 +78,9 @@ export default function LandingPage() {
               </div>
               <div className="flex justify-center gap-4">
                 <Button onClick={openModal} size="lg">Get started</Button>
-                <Button size="lg" variant="outline">
-                  View demo
-                </Button>
+<Button size="lg" variant="outline">
+                   <Link href="https://github.com/ThatLinuxGuyYouKnow/hummanize-ai">View the code</Link>
+                 </Button>
               </div>
               <div className="relative mx-auto max-w-4xl pt-16">
                 <div className="rounded-lg border bg-background shadow-xl">
@@ -158,40 +158,8 @@ export default function LandingPage() {
                   </p>
                 </div>
                 <div className="flex justify-center gap-4">
-                  <Button size="lg">Start for free</Button>
-                  <Button size="lg" variant="outline">
-                    Contact sales
-                  </Button>
-                </div>
-              </div>
-            </section>
-          </main>
+ <Button size="lg">Start for free</Button>
 
-          <footer className="border-t border-border py-12">
-            <div className="container grid gap-8 md:grid-cols-2 lg:grid-cols-4">
-              <div className="space-y-4">
-                <Link href="/" className="flex items-center space-x-2">
-                  <Bot className="h-6 w-6" />
-                  <span className="font-bold">humanize.ai</span>
-                </Link>
-                <p className="text-sm text-muted-foreground">
-                  Open-source AI humanization, empowering developers to create more natural conversations.
-                </p>
-              </div>
-              <div className="space-y-4">
-                <h4 className="font-semibold">Product</h4>
-                <ul className="space-y-2 text-sm">
-                  <li>
-                    <Link href="#" className="text-muted-foreground hover:underline">
-                      Features
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="#" className="text-muted-foreground hover:underline">
-                      Pricing
-                    </Link>
-                  </li>
-                  <li>
                     <Link href="#" className="text-muted-foreground hover:underline">
                       API
                     </Link>
@@ -200,50 +168,27 @@ export default function LandingPage() {
                     <Link
                       href="https://github.com/thatlinuxguyyouknow/humanize-ai"
                       className="text-muted-foreground hover:underline"
-                    >
-                      GitHub
-                    </Link>
+
                   </li>
                 </ul>
               </div>
-              <div className="space-y-4">
-                <h4 className="font-semibold">Company</h4>
-                <ul className="space-y-2 text-sm">
-                  <li>
+
                     <Link href="#" className="text-muted-foreground hover:underline">
                       About
                     </Link>
                   </li>
                   <li>
-                    <Link href="#" className="text-muted-foreground hover:underline">
-                      Blog
+ <Link
+                      href="https://github.com/thatlinuxguyyouknow/humanize-ai"
+                      className="text-muted-foreground hover:underline"
+                    >
+                      GitHub
                     </Link>
-                  </li>
-                  <li>
-                    <Link href="#" className="text-muted-foreground hover:underline">
-                      Careers
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-              <div className="space-y-4">
-                <h4 className="font-semibold">Legal</h4>
-                <ul className="space-y-2 text-sm">
-                  <li>
-                    <Link href="#" className="text-muted-foreground hover:underline">
-                      Privacy
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="#" className="text-muted-foreground hover:underline">
-                      Terms
                     </Link>
                   </li>
                 </ul>
               </div>
-            </div>
-          </footer>
-        </div>
+
       </div>
     </ThemeProvider>
   )
