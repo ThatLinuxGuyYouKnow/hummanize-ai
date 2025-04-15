@@ -51,7 +51,7 @@ export default function ResponsiveNavbar() {
                         >
                             <Github className="mr-2 inline-block h-4 w-4" /> GitHub
                         </Link>
-                        <Button onClick={toggleMenu}>Get Started</Button>
+
                     </nav>
 
                     {/* Mobile Navigation */}
@@ -72,7 +72,7 @@ export default function ResponsiveNavbar() {
                                 >
                                     <Github className="mr-2 inline-block h-4 w-4" /> GitHub
                                 </Link>
-                                <Button onClick={toggleMenu}>Get Started</Button>
+
                             </nav>
                         </div>
                     )}
