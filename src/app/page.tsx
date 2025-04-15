@@ -69,18 +69,17 @@ export default function LandingPage() {
                 <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">
                   Open-source AI{" "}
                   <h2 className="shimmer-text inline">text humanization</h2>
-                  <span className="text-primary"> for everyone</span>
+                   <span className="text-primary"> for free and open source</span>
                 </h1>
                 <p className="text-xl text-muted-foreground max-w-[600px] mx-auto">
                   Transform robotic AI responses into natural, engaging conversations with our open-source humanization
                   engine. Bring your own API key and start humanizing!
                 </p>
               </div>
-              <div className="flex justify-center gap-4">
                 <Button onClick={openModal} size="lg">Get started</Button>
-<Button size="lg" variant="outline">
-                   <Link href="https://github.com/ThatLinuxGuyYouKnow/hummanize-ai">View the code</Link>
-                 </Button>
+                <Button size="lg" variant="outline">
+                  <Link href="https://github.com/ThatLinuxGuyYouKnow/hummanize-ai">View the code</Link>
+                </Button>
               </div>
               <div className="relative mx-auto max-w-4xl pt-16">
                 <div className="rounded-lg border bg-background shadow-xl">
@@ -158,45 +157,32 @@ export default function LandingPage() {
                   </p>
                 </div>
                 <div className="flex justify-center gap-4">
- <Button size="lg">Start for free</Button>
+                  <Button size="lg">Start for free</Button>
+                  <Button size="lg">Start for free</Button>
+                <li>
+                  <Link
+                    href="https://github.com/thatlinuxguyyouknow/humanize-ai"
+                    className="text-muted-foreground hover:underline"
 
-                    <Link href="#" className="text-muted-foreground hover:underline">
-                      API
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="https://github.com/thatlinuxguyyouknow/humanize-ai"
-                      className="text-muted-foreground hover:underline"
 
-                  </li>
-                </ul>
-              </div>
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="https://github.com/thatlinuxguyyouknow/humanize-ai"
+              className="text-muted-foreground hover:underline"
+            >
+              GitHub
 
-                    <Link href="#" className="text-muted-foreground hover:underline">
-                      About
-                    </Link>
-                  </li>
-                  <li>
- <Link
-                      href="https://github.com/thatlinuxguyyouknow/humanize-ai"
-                      className="text-muted-foreground hover:underline"
-                    >
-                      GitHub
-                    </Link>
-                    </Link>
-                  </li>
-                </ul>
-              </div>
+      </ul>
+    </div>
 
-      </div>
-    </ThemeProvider>
-  )
-}
-
-const features = [
-  {
-    title: "Natural Language Processing",
+            <Link
+              href="https://github.com/thatlinuxguyyouknow/humanize-ai"
+              className="text-muted-foreground hover:underline"
+            >
+              GitHub
+            </Link>
     description: "AI algorithms that understand context and tone to create more natural-sounding text",
     icon: Brain,
   },
@@ -235,4 +221,3 @@ const faqs = [
       "After signing up, you can enter your OpenAI API key in the settings page. Our open-source solution uses this key to interact with the AI models securely.",
   },
 ]
-

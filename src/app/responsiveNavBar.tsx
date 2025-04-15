@@ -46,20 +46,7 @@ export default function ResponsiveNavbar() {
                         >
                             Github
                         </Link>
-                        <Link href="/humanize">
-                            <Button>Get Started</Button>
-                        </Link>
                     </nav>
-                        <Link href="/humanize">
-                            <Button>Get Started</Button>
-                        </Link>
-                    </nav>
-
-                    {/* Mobile Menu Overlay */}
-                    {isMenuOpen && (
-                        <div className="md:hidden fixed inset-0 top-14 bg-background/95 backdrop-blur">
-                            <nav className="flex flex-col p-4 space-y-4">
-                                <Link
                                     href="#features"
                                     className="text-lg font-medium hover:underline underline-offset-4"
                                     onClick={toggleMenu}
