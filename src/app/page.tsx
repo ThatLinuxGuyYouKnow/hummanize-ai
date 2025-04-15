@@ -72,7 +72,7 @@ export default function LandingPage() {
                 <Button onClick={openModal} size="lg">Get started</Button>
                 <Button size="lg" variant="outline" asChild>
                   <Link href="https://github.com/ThatLinuxGuyYouKnow/humanize-ai" target="_blank">
-                    <GitHub className="mr-2 h-4 w-4" /> View on GitHub
+                    <Github className="mr-2 h-4 w-4" /> View on GitHub
                   </Link>
                 </Button>
               </div>
