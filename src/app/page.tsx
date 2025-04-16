@@ -71,7 +71,7 @@ export default function LandingPage() {
               <div className="flex justify-center gap-4">
                 <Button onClick={openModal} size="lg">Get started</Button>
                 <Button size="lg" variant="outline" asChild>
-                  <Link href="https://github.com/ThatLinuxGuyYouKnow/humanize-ai" target="_blank">
+                  <Link href="https://github.com/ThatLinuxGuyYouKnow/hummanize-ai" target="_blank">
                     <Github className="mr-2 h-4 w-4" /> View on GitHub
                   </Link>
                 </Button>
@@ -185,7 +185,7 @@ export default function LandingPage() {
                   </li>
                   <li>
                     <Link
-                      href="https://github.com/ThatLinuxGuyYouKnow/humanize-ai"
+                      href="https://github.com/ThatLinuxGuyYouKnow/hummanize-ai"
                       className="text-muted-foreground hover:underline"
                     >
                       GitHub

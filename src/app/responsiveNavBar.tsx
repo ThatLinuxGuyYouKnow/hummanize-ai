@@ -46,7 +46,7 @@ export default function ResponsiveNavbar() {
                             Features
                         </Link>
                         <Link
-                            href="https://github.com/ThatLinuxGuyYouKnow/humanize-ai"
+                            href="https://github.com/ThatLinuxGuyYouKnow/hummanize-ai"
                             className="text-sm font-medium hover:underline ease-out duration-300 transition-all underline-offset-4"
                         >
                             <Github className="mr-2 inline-block h-4 w-4" /> GitHub
@@ -66,7 +66,7 @@ export default function ResponsiveNavbar() {
                                     Features
                                 </Link>
                                 <Link
-                                    href="https://github.com/ThatLinuxGuyYouKnow/humanize-ai"
+                                    href="https://github.com/ThatLinuxGuyYouKnow/hummanize-ai"
                                     className="text-lg font-medium hover:underline underline-offset-4"
                                     onClick={toggleMenu}
                                 >
